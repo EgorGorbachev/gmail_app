@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "856894616826",
+    "project_id": "gorbachev-gmail-1623136255029",
+    "storage_bucket": "gorbachev-gmail-1623136255029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856894616826:android:80d8630acb990928d20543",
+        "android_client_info": {
+          "package_name": "com.example.gorbachev_gmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856894616826-ql3817j25jn5adh4tnc8vcfbuobdql0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gorbachev_gmail",
+            "certificate_hash": "38e2c57e552c96d37f31037d88bf05784cd3e603"
+          }
+        },
+        {
+          "client_id": "856894616826-chgu8aqu9b8ihp604bdt102nrdblnger.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_m5DD8OTvp1cT0-MdMYLu19T87Z1ewdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856894616826-chgu8aqu9b8ihp604bdt102nrdblnger.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

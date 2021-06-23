@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainFr">
+
+    <fragment
+        android:id="@+id/mainFr"
+        android:name="com.example.gorbachev_gmail.fragments.mainFr"
+        android:label="mainFr" >
+        <action
+            android:id="@+id/action_mainFr_to_mailsFr"
+            app:destination="@id/mailsFr"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/mailsFr"
+        android:name="com.example.gorbachev_gmail.fragments.mailsFr"
+        android:label="mailsFr" >
+        <action
+            android:id="@+id/action_mailsFr_to_mainFr"
+            app:destination="@id/mainFr"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+</navigation>

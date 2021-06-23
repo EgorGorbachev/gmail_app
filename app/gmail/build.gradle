@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'com.google.api-client:google-api-client:1.23.0'
+    implementation 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+    implementation 'com.google.apis:google-api-services-gmail:v1-rev83-1.23.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.0-M1'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}

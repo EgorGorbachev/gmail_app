@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gorbachev_Gmail</string>
+    <string name="remember_me_check_box">Remember me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_page_text">HEllO</string>
+    <string name="toolbar_title">List mails</string>
+    <string name="sing_out_btn">Sing out</string>
+    <string name="attach_text">This mail have attach file</string>
+</resources>

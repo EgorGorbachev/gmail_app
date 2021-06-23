@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loading_page_text_size">50sp</dimen>
+    <dimen name="loading_page_spin_size">32dip</dimen>
+    <dimen name="remember_check_box_margin_t">8dp</dimen>
+    <dimen name="main_fragment_title_size">40sp</dimen>
+    <dimen name="attach_text_size">10sp</dimen>
+</resources>
